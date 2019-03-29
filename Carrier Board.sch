@@ -5239,11 +5239,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <plain>
 <text x="172.72" y="7.62" size="1.778" layer="94">Chip McClelland
 chip@mcclellands.org</text>
-<text x="238.76" y="7.62" size="2.54" layer="94">v2.5</text>
+<text x="238.76" y="7.62" size="2.54" layer="94">v1.0</text>
 <text x="149.86" y="38.1" size="1.778" layer="94">Power either with DC source or Solar Panel - JST connector
 1) External Power: 5V DC @ 2A 
 2) Solar Power: Recommend 3-5W @ 6V</text>
-<text x="63.5" y="180.34" size="2.54" layer="94" ratio="10">Particle Electron Carrier Board for Unprotected Environments</text>
+<text x="63.5" y="180.34" size="2.54" layer="94" ratio="10">Particle Boron / Xenon / Argon Carrier Board for Unprotected Environments</text>
 <text x="12.7" y="60.96" size="1.778" layer="94">R1 and R2 values set reset interval.
 See pages 12-13 in manual for values
 http://www.ti.com/lit/ds/symlink/tpl5010.pdf
@@ -5868,19 +5868,15 @@ on the TMP-36.  It draws only about 50uA</text>
 <sheet>
 <description>Power Control</description>
 <plain>
-<text x="86.36" y="177.8" size="2.54" layer="94" ratio="10">Particle Electron Carrier Board - Power Control</text>
+<text x="86.36" y="177.8" size="2.54" layer="94" ratio="10">Particle Boron / Argon / Xenon Carrier Board - Power Control</text>
 <text x="165.1" y="71.12" size="1.778" layer="91">4093 QUAD NAND</text>
 <text x="88.9" y="162.56" size="2.54" layer="97">Power Control - Push Button and !Hard-Reset</text>
 <text x="175.26" y="10.16" size="2.54" layer="94">Chip McClelland</text>
-<text x="238.76" y="7.62" size="2.54" layer="94">v2.5</text>
+<text x="238.76" y="7.62" size="2.54" layer="94">v1.0</text>
 <text x="5.08" y="7.62" size="2.1844" layer="94">Logic Table:
 If Button-State is HIGH AND HARD-RST is LOW then power is ON
 If Button-State is LOW AND Hard-RST is LOW then power is OFF
 if Button-State ON AND Hard-RST is HIGH then power is OFF
-
-System will not power on if the battery is disconnected.  
-Charging requires both switches ON since reverse current can damage the
-TPS27082 if it is in an OFF state.
 </text>
 <text x="116.84" y="58.42" size="1.778" layer="94">!HARD-RESET !connected to D5. 
 HIGH will cut power for 100mSec.</text>
@@ -6157,12 +6153,12 @@ w/o the LiPo battery</text>
 <description>Protection and 5V Boost</description>
 <plain>
 <text x="129.54" y="68.58" size="2.54" layer="97" rot="R90">Protection Circuits for External Connections</text>
-<text x="68.58" y="127" size="2.54" layer="97">Electron's TPS62291 has 
+<text x="68.58" y="127" size="2.54" layer="97">Device TPS62291 has 
 short circuit protection. 
 Vin is protected by F1</text>
 <text x="175.26" y="10.16" size="2.54" layer="94">Chip McClelland</text>
-<text x="238.76" y="7.62" size="2.54" layer="94">v2.5</text>
-<text x="83.82" y="177.8" size="2.54" layer="94">Particle Electron Carrier Board - Power Protection</text>
+<text x="238.76" y="7.62" size="2.54" layer="94">v1.0</text>
+<text x="83.82" y="177.8" size="2.54" layer="94">Particle Boron / Xenon / Argon Carrier Board - Power Protection</text>
 </plain>
 <instances>
 <instance part="V3" gate="G$1" x="213.36" y="132.08" smashed="yes" rot="R90">
