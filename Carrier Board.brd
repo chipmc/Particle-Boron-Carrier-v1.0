@@ -1371,7 +1371,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="61.8871" y="15.3924" size="0.8128" layer="25" font="vector" rot="R270"/>
 </element>
 <element name="R13" library="SparkFun-Passives" package="0805" value="100k" x="69.5198" y="8.5852" smashed="yes">
-<attribute name="NAME" x="69.6214" y="6.9469" size="0.8128" layer="25" font="vector"/>
+<attribute name="NAME" x="71.247" y="8.2931" size="0.8128" layer="25" font="vector"/>
 </element>
 <element name="R11" library="SparkFun-Passives" package="0805" value="100k" x="59.182" y="14.6304" smashed="yes" rot="R90">
 <attribute name="NAME" x="58.3311" y="13.7668" size="0.8128" layer="25" font="vector" rot="R90"/>
@@ -2172,6 +2172,10 @@ Please make sure your boards conform to these design rules.</description>
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
+<errors>
+<approved hash="19,1,4e4521e038f4b154"/>
+<approved hash="19,1,449ccc8bd798b98a"/>
+</errors>
 </board>
 </drawing>
 <compatibility>
