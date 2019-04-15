@@ -5336,7 +5336,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="D3" library="MF_Discrete_Semiconductor" deviceset="DIODES" device="_SOD-123" technology="_BAT42" value="MF-DIO-SOD123-BAT42"/>
 <part name="C8" library="MF_Passives" deviceset="CAPACITOR_P" device="_10MM" value="470uF"/>
 <part name="U2" library="Custom Components" deviceset="TPL5010" device=""/>
-<part name="BORON" library="Carrier Board" deviceset="PARTICLE-DEVICES-BORON" device=""/>
+<part name="BORON/ARGON/XENON" library="Carrier Board" deviceset="PARTICLE-DEVICES-BORON" device=""/>
 <part name="SW2" library="MF_Switches" deviceset="TACT" device="_6MM" value="MF-SW-TACT-6MM"/>
 <part name="V2" library="Custom Components" deviceset="VARISTOR" device="" value="VC080505C150DP "/>
 <part name="F2" library="SparkFun-Fuses" deviceset="PPTC" device="_HALF-AMP" value="500mA - FAST BLOW"/>
@@ -5468,7 +5468,7 @@ on the TMP-36.  It draws only about 50uA</text>
 <attribute name="NAME" x="38.4556" y="103.0986" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="40.3606" y="82.7786" size="2.0828" layer="96" ratio="6" rot="SR0"/>
 </instance>
-<instance part="BORON" gate="G$1" x="175.26" y="134.62" smashed="yes"/>
+<instance part="BORON/ARGON/XENON" gate="G$1" x="175.26" y="134.62" smashed="yes"/>
 <instance part="SW2" gate="G$1" x="93.98" y="22.86" smashed="yes">
 <attribute name="NAME" x="91.44" y="30.48" size="1.016" layer="95" font="vector" align="top-left"/>
 <attribute name="VALUE" x="91.44" y="27.94" size="1.016" layer="96" font="vector"/>
@@ -5567,7 +5567,7 @@ on the TMP-36.  It draws only about 50uA</text>
 <junction x="96.52" y="17.78"/>
 </segment>
 <segment>
-<pinref part="BORON" gate="G$1" pin="GND"/>
+<pinref part="BORON/ARGON/XENON" gate="G$1" pin="GND"/>
 <wire x1="157.48" y1="152.4" x2="147.32" y2="152.4" width="0.1524" layer="91"/>
 <label x="149.86" y="152.4" size="1.778" layer="95"/>
 </segment>
@@ -5607,7 +5607,7 @@ on the TMP-36.  It draws only about 50uA</text>
 <segment>
 <wire x1="193.04" y1="96.52" x2="208.28" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="1"/>
-<pinref part="BORON" gate="G$1" pin="SCL"/>
+<pinref part="BORON/ARGON/XENON" gate="G$1" pin="SCL"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="G$1" pin="4"/>
@@ -5629,7 +5629,7 @@ on the TMP-36.  It draws only about 50uA</text>
 <segment>
 <wire x1="193.04" y1="91.44" x2="200.66" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="1"/>
-<pinref part="BORON" gate="G$1" pin="SDA"/>
+<pinref part="BORON/ARGON/XENON" gate="G$1" pin="SDA"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="G$1" pin="5"/>
@@ -5694,7 +5694,7 @@ on the TMP-36.  It draws only about 50uA</text>
 <junction x="228.6" y="96.52"/>
 </segment>
 <segment>
-<pinref part="BORON" gate="G$1" pin="3V3"/>
+<pinref part="BORON/ARGON/XENON" gate="G$1" pin="3V3"/>
 <wire x1="157.48" y1="162.56" x2="147.32" y2="162.56" width="0.1524" layer="91"/>
 <label x="149.86" y="162.56" size="1.778" layer="95"/>
 </segment>
@@ -5706,7 +5706,7 @@ on the TMP-36.  It draws only about 50uA</text>
 <label x="111.76" y="127" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="BORON" gate="G$1" pin="D2"/>
+<pinref part="BORON/ARGON/XENON" gate="G$1" pin="D2"/>
 <wire x1="193.04" y1="101.6" x2="200.66" y2="101.6" width="0.1524" layer="91"/>
 <label x="198.12" y="101.6" size="1.778" layer="95" align="bottom-right"/>
 </segment>
@@ -5718,7 +5718,7 @@ on the TMP-36.  It draws only about 50uA</text>
 <label x="111.76" y="124.46" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="BORON" gate="G$1" pin="D3"/>
+<pinref part="BORON/ARGON/XENON" gate="G$1" pin="D3"/>
 <wire x1="193.04" y1="106.68" x2="200.66" y2="106.68" width="0.1524" layer="91"/>
 <label x="198.12" y="106.68" size="1.778" layer="95" align="bottom-right"/>
 </segment>
@@ -5730,28 +5730,28 @@ on the TMP-36.  It draws only about 50uA</text>
 <label x="109.22" y="83.82" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="BORON" gate="G$1" pin="TX"/>
+<pinref part="BORON/ARGON/XENON" gate="G$1" pin="TX"/>
 <wire x1="157.48" y1="96.52" x2="149.86" y2="96.52" width="0.1524" layer="91"/>
 <label x="152.4" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A3" class="0">
 <segment>
-<pinref part="BORON" gate="G$1" pin="A3"/>
+<pinref part="BORON/ARGON/XENON" gate="G$1" pin="A3"/>
 <wire x1="157.48" y1="132.08" x2="149.86" y2="132.08" width="0.1524" layer="91"/>
 <label x="152.4" y="132.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A2" class="0">
 <segment>
-<pinref part="BORON" gate="G$1" pin="A2"/>
+<pinref part="BORON/ARGON/XENON" gate="G$1" pin="A2"/>
 <wire x1="157.48" y1="137.16" x2="149.86" y2="137.16" width="0.1524" layer="91"/>
 <label x="152.4" y="137.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="!RST" class="0">
 <segment>
-<pinref part="BORON" gate="G$1" pin="!RST"/>
+<pinref part="BORON/ARGON/XENON" gate="G$1" pin="!RST"/>
 <wire x1="157.48" y1="167.64" x2="147.32" y2="167.64" width="0.1524" layer="91"/>
 <label x="149.86" y="167.64" size="1.778" layer="95"/>
 </segment>
@@ -5779,7 +5779,7 @@ on the TMP-36.  It draws only about 50uA</text>
 <label x="60.96" y="88.9" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="BORON" gate="G$1" pin="D5"/>
+<pinref part="BORON/ARGON/XENON" gate="G$1" pin="D5"/>
 <wire x1="193.04" y1="116.84" x2="200.66" y2="116.84" width="0.1524" layer="91"/>
 <label x="200.66" y="116.84" size="1.778" layer="95" align="bottom-right"/>
 </segment>
@@ -5791,7 +5791,7 @@ on the TMP-36.  It draws only about 50uA</text>
 <label x="109.22" y="81.28" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="BORON" gate="G$1" pin="RX"/>
+<pinref part="BORON/ARGON/XENON" gate="G$1" pin="RX"/>
 <wire x1="157.48" y1="101.6" x2="149.86" y2="101.6" width="0.1524" layer="91"/>
 <label x="152.4" y="101.6" size="1.778" layer="95"/>
 </segment>
@@ -5803,14 +5803,14 @@ on the TMP-36.  It draws only about 50uA</text>
 <label x="17.78" y="152.4" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="BORON" gate="G$1" pin="A4"/>
+<pinref part="BORON/ARGON/XENON" gate="G$1" pin="A4"/>
 <wire x1="157.48" y1="127" x2="149.86" y2="127" width="0.1524" layer="91"/>
 <label x="149.86" y="127" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="HARD-RESET" class="0">
 <segment>
-<pinref part="BORON" gate="G$1" pin="D6"/>
+<pinref part="BORON/ARGON/XENON" gate="G$1" pin="D6"/>
 <wire x1="193.04" y1="121.92" x2="203.2" y2="121.92" width="0.1524" layer="91"/>
 <label x="210.82" y="121.92" size="1.778" layer="95" align="bottom-right"/>
 </segment>
@@ -5838,7 +5838,7 @@ on the TMP-36.  It draws only about 50uA</text>
 <junction x="119.38" y="33.02"/>
 </segment>
 <segment>
-<pinref part="BORON" gate="G$1" pin="D4"/>
+<pinref part="BORON/ARGON/XENON" gate="G$1" pin="D4"/>
 <wire x1="193.04" y1="111.76" x2="200.66" y2="111.76" width="0.1524" layer="91"/>
 <label x="205.74" y="111.76" size="1.778" layer="95" align="bottom-right"/>
 </segment>
@@ -5860,7 +5860,7 @@ on the TMP-36.  It draws only about 50uA</text>
 </net>
 <net name="SS" class="0">
 <segment>
-<pinref part="BORON" gate="G$1" pin="A5"/>
+<pinref part="BORON/ARGON/XENON" gate="G$1" pin="A5"/>
 <wire x1="157.48" y1="121.92" x2="149.86" y2="121.92" width="0.1524" layer="91"/>
 <label x="152.4" y="121.92" size="1.778" layer="95"/>
 </segment>
@@ -5872,14 +5872,14 @@ on the TMP-36.  It draws only about 50uA</text>
 </net>
 <net name="MD" class="0">
 <segment>
-<pinref part="BORON" gate="G$1" pin="MD"/>
+<pinref part="BORON/ARGON/XENON" gate="G$1" pin="MD"/>
 <wire x1="157.48" y1="157.48" x2="147.32" y2="157.48" width="0.1524" layer="91"/>
 <label x="149.86" y="157.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A0" class="0">
 <segment>
-<pinref part="BORON" gate="G$1" pin="A0"/>
+<pinref part="BORON/ARGON/XENON" gate="G$1" pin="A0"/>
 <wire x1="157.48" y1="147.32" x2="149.86" y2="147.32" width="0.1524" layer="91"/>
 <label x="152.4" y="147.32" size="1.778" layer="95"/>
 </segment>
@@ -5891,7 +5891,7 @@ on the TMP-36.  It draws only about 50uA</text>
 </net>
 <net name="A1" class="0">
 <segment>
-<pinref part="BORON" gate="G$1" pin="A1"/>
+<pinref part="BORON/ARGON/XENON" gate="G$1" pin="A1"/>
 <wire x1="157.48" y1="142.24" x2="149.86" y2="142.24" width="0.1524" layer="91"/>
 <label x="152.4" y="142.24" size="1.778" layer="95"/>
 </segment>
@@ -5903,7 +5903,7 @@ on the TMP-36.  It draws only about 50uA</text>
 </net>
 <net name="SCK" class="0">
 <segment>
-<pinref part="BORON" gate="G$1" pin="SCK"/>
+<pinref part="BORON/ARGON/XENON" gate="G$1" pin="SCK"/>
 <wire x1="157.48" y1="116.84" x2="147.32" y2="116.84" width="0.1524" layer="91"/>
 <label x="149.86" y="116.84" size="1.778" layer="95"/>
 </segment>
@@ -5915,7 +5915,7 @@ on the TMP-36.  It draws only about 50uA</text>
 </net>
 <net name="MOSI" class="0">
 <segment>
-<pinref part="BORON" gate="G$1" pin="MO"/>
+<pinref part="BORON/ARGON/XENON" gate="G$1" pin="MO"/>
 <wire x1="157.48" y1="111.76" x2="147.32" y2="111.76" width="0.1524" layer="91"/>
 <label x="149.86" y="111.76" size="1.778" layer="95"/>
 </segment>
@@ -5927,7 +5927,7 @@ on the TMP-36.  It draws only about 50uA</text>
 </net>
 <net name="MISO" class="0">
 <segment>
-<pinref part="BORON" gate="G$1" pin="MI"/>
+<pinref part="BORON/ARGON/XENON" gate="G$1" pin="MI"/>
 <wire x1="157.48" y1="106.68" x2="149.86" y2="106.68" width="0.1524" layer="91"/>
 <label x="152.4" y="106.68" size="1.778" layer="95"/>
 </segment>
@@ -5944,21 +5944,21 @@ on the TMP-36.  It draws only about 50uA</text>
 <label x="60.96" y="93.98" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="BORON" gate="G$1" pin="D8"/>
+<pinref part="BORON/ARGON/XENON" gate="G$1" pin="D8"/>
 <wire x1="193.04" y1="132.08" x2="200.66" y2="132.08" width="0.1524" layer="91"/>
 <label x="203.2" y="132.08" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="LI+" class="0">
 <segment>
-<pinref part="BORON" gate="G$1" pin="LI+"/>
+<pinref part="BORON/ARGON/XENON" gate="G$1" pin="LI+"/>
 <wire x1="193.04" y1="147.32" x2="200.66" y2="147.32" width="0.1524" layer="91"/>
 <label x="198.12" y="147.32" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="EN" class="0">
 <segment>
-<pinref part="BORON" gate="G$1" pin="EN"/>
+<pinref part="BORON/ARGON/XENON" gate="G$1" pin="EN"/>
 <wire x1="193.04" y1="142.24" x2="200.66" y2="142.24" width="0.1524" layer="91"/>
 <label x="198.12" y="142.24" size="1.778" layer="95" align="bottom-right"/>
 </segment>
@@ -5970,7 +5970,7 @@ on the TMP-36.  It draws only about 50uA</text>
 </net>
 <net name="VUSB" class="0">
 <segment>
-<pinref part="BORON" gate="G$1" pin="VUSB"/>
+<pinref part="BORON/ARGON/XENON" gate="G$1" pin="VUSB"/>
 <wire x1="193.04" y1="137.16" x2="205.74" y2="137.16" width="0.1524" layer="91"/>
 <label x="203.2" y="137.16" size="1.778" layer="95" align="bottom-right"/>
 </segment>
