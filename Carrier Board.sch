@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.2">
+<eagle version="9.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5735,13 +5735,6 @@ on the TMP-36.  It draws only about 50uA</text>
 <label x="152.4" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="A3" class="0">
-<segment>
-<pinref part="BORON/ARGON/XENON" gate="G$1" pin="A3"/>
-<wire x1="157.48" y1="132.08" x2="149.86" y2="132.08" width="0.1524" layer="91"/>
-<label x="152.4" y="132.08" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="A2" class="0">
 <segment>
 <pinref part="BORON/ARGON/XENON" gate="G$1" pin="A2"/>
@@ -5779,9 +5772,9 @@ on the TMP-36.  It draws only about 50uA</text>
 <label x="60.96" y="88.9" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="BORON/ARGON/XENON" gate="G$1" pin="D5"/>
-<wire x1="193.04" y1="116.84" x2="200.66" y2="116.84" width="0.1524" layer="91"/>
-<label x="200.66" y="116.84" size="1.778" layer="95" align="bottom-right"/>
+<pinref part="BORON/ARGON/XENON" gate="G$1" pin="A3"/>
+<wire x1="157.48" y1="132.08" x2="149.86" y2="132.08" width="0.1524" layer="91"/>
+<label x="149.86" y="132.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RX" class="0">
